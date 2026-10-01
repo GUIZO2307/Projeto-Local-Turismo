@@ -119,3 +119,46 @@ font-style: bold;
     height: 20px;
     margin-left: 8px;
 }
+
+@media (max-width: 768px) {
+  #page {
+    margin: 20px; /* Reduz as margens externas para não espremer na tela pequena */
+  }
+
+  .headline {
+    margin: 32px 0;
+  }
+
+  .headline h1 {
+    font-size: 28px; /* Reduz de 40px para caber na tela do celular */
+  }
+
+  .headline h3,
+  .list h3 {
+    font-size: 18px; /* Reduz de 24px para 18px */
+  }
+
+  .headline p,
+  .description p,
+  .list p,
+  .list ul {
+    font-size: 18px; /* Reduz de 25px para 18px para melhor legibilidade */
+  }
+
+  .list h2 {
+    font-size: 22px; /* Reduz de 30px para 22px */
+  }
+
+  .list {
+    margin-bottom: 40px;
+  }
+
+  .list ul {
+    padding-left: 24px; /* Recuo menor da lista no celular */
+    margin-bottom: 24px;
+  }
+
+  .sonho {
+    font-size: 16px;
+  }
+}
